@@ -1,0 +1,5 @@
+{
+    "rootApps" : "Web/View/Home/Index.php",
+    "assetsPath" : "Web/Assets/",
+    "webHost" : "http://localhost/Wessel/"
+}
