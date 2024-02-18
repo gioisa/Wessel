@@ -215,17 +215,13 @@
 	var overiewChart = function(){
 		 var options = {
           series: [{
-          name: 'Number of Projects',
-          type: 'column',
+          name: 'Tegangan',
+          type: 'line',
           data: [75, 85, 72, 100, 50, 100, 80, 75, 95, 35, 75,100]
         }, {
-          name: 'Revenue',
+          name: 'Arus',
           type: 'area',
           data: [44, 65, 55, 75, 45, 55, 40, 60, 75, 45, 50,42]
-        }, {
-          name: 'Active Projects',
-          type: 'line',
-          data: [30, 25, 45, 30, 25, 35, 20, 45, 35, 20, 35,20]
         }],
           chart: {
           height: 300,

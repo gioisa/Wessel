@@ -14,12 +14,12 @@ Template::renderHeader();
                </div>
                <div class="profile-info">
                   <div class="profile-photo">
-                     <img src="<?php echo AssetPath('images/fukada.jpg') ?>" class="img-fluid rounded-circle" alt="">
+                     <img src="<?php echo AssetPath('images/user.jpg') ?>" class="img-fluid rounded-circle" alt="">
                   </div>
                   <div class="profile-details">
                      <div class="profile-name px-3 pt-2">
                         <h4 class="text-primary mb-0">Mitchell C. Shay</h4>
-                        <p>UX / UI Designer</p>
+                        <p>Student</p>
                      </div>
                      <div class="profile-email px-2 pt-2">
                         <h4 class="text-muted mb-0">info@example.com</h4>

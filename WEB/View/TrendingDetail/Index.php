@@ -13,7 +13,7 @@ Template::renderHeader();
             </div>
             <div class="card-body">
                <div class="position-relative" id="">
-                  <canvas id="LineChart1" style="width: 100%;"></canvas>
+                  <canvas id="LineChart1" style="width: 100%; height:200px;"></canvas>
                </div>
             </div>
          </div>
@@ -27,7 +27,7 @@ Template::renderHeader();
             </div>
             <div class="card-body">
                <div class="position-relative" id="">
-                  <canvas id="LineChart2" style="width: 100%;"></canvas>
+                  <canvas id="LineChart2" style="width: 100%; height:200px;"></canvas>
                </div>
             </div>
          </div>
@@ -41,7 +41,7 @@ Template::renderHeader();
             </div>
             <div class="card-body">
                <div class="position-relative" id="">
-                  <canvas id="LineChart3" style="width: 100%;"></canvas>
+                  <canvas id="LineChart3" style="width: 100%; height:200px;"></canvas>
                </div>
             </div>
          </div>

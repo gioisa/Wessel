@@ -8,7 +8,7 @@ function GetDataMenu(){
         if(result != null){
             result.forEach(element => {
                 $('#menu').append(`
-            <li><a href="project.html" class="" aria-expanded="false">
+            <li><a href="/Wessel/${element.NAVIGATION}" class="" aria-expanded="false">
             <div class="menu-icon">
             <div style="margin-right:15px;">${element.ICON}</div>
             </div>	

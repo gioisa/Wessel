@@ -13,9 +13,9 @@ Template::renderHeader();
             <thead>
                <tr>
                   <th>Timestamp</th>
-                  <th>Voltage</th>
-                  <th>Current</th>
-                  <th>Status</th>
+                  <th>Event</th>
+                  <th>Warning</th>
+                  <th>Alarm</th>
                </tr>
             </thead>
             <tbody>
@@ -45,7 +45,7 @@ Template::renderHeader();
    </div>
 </div>
 
-<script src="<?php echo GlobalPath('/View/DataTableDetail/Script/Index.js') ?>"></script>
+<script src="<?php echo GlobalPath('/View/DataLogger/Script/Index.js') ?>"></script>
 
 <?php
 Template::renderFooter();

@@ -84,8 +84,7 @@ Template::renderHeader();
         </div>
 
 
-        <div class="col-xl-8">
-            <div class="col-12">
+        <div class="col-xl-9">
             <div class="card">
                 <div class="card-header border-0 pb-0">
                     <h4 class="heading mb-0">Jalur Kereta 1</h4>
@@ -112,29 +111,37 @@ Template::renderHeader();
                 </div>
                 <div class="card-body custome-tooltip p-0">
                     <div id="overiewChart"></div>
-                    <div class="ttl-project ds-chart">
-                        <div class="pr-data">
-                            <h5>12,721</h5>
-                            <span>Number of Projects</span>
-                        </div>
-                        <div class="pr-data">
-                            <h5 class="text-primary">721</h5>
-                            <span>Active Projects</span>
-                        </div>
-                        <div class="pr-data">
-                            <h5>$2,50,523</h5>
-                            <span>Revenue</span>
-                        </div>
-                        <div class="pr-data">
-                            <h5 class="text-success">12,275h</h5>
-                            <span>Working Hours</span>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
-            </div>
-            <div class="col-12">
+        </div>
+        <div class="col-xl-3 col-lg-6">
             <div class="card">
+                <div class="card-header border-0">
+                    <h4 class="heading mb-0">Alarm</h4>
+                </div>
+                <div class="card-body pt-0 custome-tooltip">
+                    <div class="d-flex justify-content-center">
+                    <div class="icon-box icon-box-lg bg-danger rounded-circle">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mt-5">
+                    <div class="icon-box icon-box-lg bg-light rounded-circle">
+                        </div>
+                    </div>
+                    <!-- <ul class="lang-chart">
+                        <li><i class="fa-sharp fa-regular fa-circle-dot"></i>Html</li>
+                        <li><i class="fa-sharp fa-regular fa-circle-dot"></i>Css</li>
+                        <li><i class="fa-sharp fa-regular fa-circle-dot"></i>scss</li>
+                        <li><i class="fa-sharp fa-regular fa-circle-dot"></i>c++</li>
+                        <li><i class="fa-sharp fa-regular fa-circle-dot"></i>JavaScript</li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-9">
+        <div class="card">
                 <div class="card-header border-0 pb-0 flex-wrap">
                     <h4 class="heading mb-0">Jalur Kereta 2</h4>
                     <!-- <ul class="nav nav-pills mix-chart-tab" id="pills-tab" role="tablist">
@@ -160,46 +167,7 @@ Template::renderHeader();
                 </div>
                 <div class="card-body custome-tooltip p-0">
                     <div id="overiewChart2"></div>
-                    <div class="ttl-project ds-chart">
-                        <div class="pr-data">
-                            <h5>12,721</h5>
-                            <span>Number of Projects</span>
-                        </div>
-                        <div class="pr-data">
-                            <h5 class="text-primary">721</h5>
-                            <span>Active Projects</span>
-                        </div>
-                        <div class="pr-data">
-                            <h5>$2,50,523</h5>
-                            <span>Revenue</span>
-                        </div>
-                        <div class="pr-data">
-                            <h5 class="text-success">12,275h</h5>
-                            <span>Working Hours</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="col-xl-4 col-lg-5">
-            <div class="card">
-                <div class="card-header border-0">
-                    <h4 class="heading mb-0">Organic Traffic</h4>
-                </div>
-                <div class="card-body pt-0 custome-tooltip">
-                    <div class="d-flex justify-content-center">
-                    <div class="icon-box icon-box-lg bg-success-light rounded-circle">
-                        <i class="fa-solid  text-success fa-bolt"></i>
-                        </div>
-                    </div>
-                    <!-- <ul class="lang-chart">
-                        <li><i class="fa-sharp fa-regular fa-circle-dot"></i>Html</li>
-                        <li><i class="fa-sharp fa-regular fa-circle-dot"></i>Css</li>
-                        <li><i class="fa-sharp fa-regular fa-circle-dot"></i>scss</li>
-                        <li><i class="fa-sharp fa-regular fa-circle-dot"></i>c++</li>
-                        <li><i class="fa-sharp fa-regular fa-circle-dot"></i>JavaScript</li>
-                    </ul> -->
+                   
                 </div>
             </div>
         </div>
