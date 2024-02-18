@@ -7,7 +7,7 @@ const httpMethod = {
 };
 
 var cookie_name = "";
-var url_web_service = "http://localhost/Wessel/Api/Controller/V1/SetPageController.php?action=getSetPage";
+var url_web_service = "http://localhost/Wessel/Api/";
 var token = "";
 
 function RequestData(type, url, container, field, params, callback, isJson = true) {
@@ -18,19 +18,19 @@ function RequestData(type, url, container, field, params, callback, isJson = tru
    var config = {
       async: true,
       type: type,
-      url: url_web_service + url,
+      url: url,
       data: params,
       headers: {
          "Authorization": token,
          "Content-Type": 'application/json'
       },
       beforeSend: function (xhr) {
-         if (container != undefined && container != null && container != "")
-             ShowLoading(container);
+        //  if (container != undefined && container != null && container != "")
+            //  ShowLoading(container);
       },
       error: function (err) {
-         if (container != undefined && container != null && container != "")
-             $(container).waitMe('hide');
+        //  if (container != undefined && container != null && container != "")
+            //  $(container).waitMe('hide');
          if (err.responseJSON != undefined && err.responseJSON != null) {
              if (callback != undefined && callback != null && callback != "")
                  return callback(err.responseJSON);
@@ -44,8 +44,8 @@ function RequestData(type, url, container, field, params, callback, isJson = tru
          if (field != undefined && field != null && field != "")
              $(field).html('');
      
-         if (container != undefined && container != null && container != "")
-             $(container).waitMe('hide');
+        //  if (container != undefined && container != null && container != "")
+            //  $(container).waitMe('hide');
      
          if (callback != undefined && callback != null && callback != "")
              return callback(data);

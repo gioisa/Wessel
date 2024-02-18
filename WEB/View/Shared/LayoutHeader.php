@@ -37,6 +37,8 @@
     </div>
     
     <script src="<?php echo AssetPath('/vendor/global/global.min.js') ?>"></script>
+    <script src="<?php echo AssetPath('/js/scripts/request_data.js') ?>"></script>
+    <script src="<?php echo AssetPath('/js/scripts/helper.js') ?>"></script>
 
     <div id="main-wrapper">
         <?php include 'Navbar.php' ?>

@@ -893,24 +893,8 @@
 		<div class="deznav">
             <div class="deznav-scroll">
 				<ul class="metismenu" id="menu">
-					<li class="menu-title">YOUR COMPANY</li>
-					<li><a href="project.html" class="" aria-expanded="false">
-						<div class="menu-icon">
-							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<g clip-path="url(#clip0_115_172)">
-								<path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M12 4.25933C12.1489 4.25921 12.3 4.29247 12.4426 4.36281C12.6398 4.46014 12.7994 4.61977 12.8967 4.81698L14.9389 8.95491L19.5054 9.61846C20.0519 9.69788 20.4306 10.2053 20.3512 10.7519C20.3196 10.9695 20.2171 11.1706 20.0596 11.3242L16.7553 14.5451L17.5353 19.0931C17.6287 19.6374 17.2631 20.1544 16.7188 20.2478C16.502 20.2849 16.279 20.2496 16.0844 20.1473L12 18V4.25933Z" fill="#4E5566"/>
-								<path fill-rule="evenodd" clip-rule="evenodd" d="M12 4.25933V18L7.91559 20.1473C7.42675 20.4043 6.82212 20.2163 6.56512 19.7275C6.46278 19.5328 6.42746 19.3099 6.46464 19.0931L7.24469 14.5451L3.94036 11.3242C3.54487 10.9387 3.53678 10.3055 3.92228 9.91006C4.07579 9.75258 4.27693 9.65009 4.49457 9.61846L9.06104 8.95492L11.1032 4.81699C11.2773 4.46426 11.6316 4.25961 12 4.25933Z" fill="#90959F"/>
-								</g>
-								<defs>
-								<clipPath id="clip0_115_172">
-								<rect width="24" height="24" fill="white"/>
-								</clipPath>
-								</defs>
-							</svg>
-						</div>	
-							<span class="nav-text">Projects</span>
-						</a>
-					</li>
+					<!-- <li class="menu-title">YOUR COMPANY</li> -->
+					
 				</ul>
 			</div>
         </div>

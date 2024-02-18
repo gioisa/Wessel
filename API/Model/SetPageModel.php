@@ -18,7 +18,7 @@ class SetPageModel
 
     public function getSetPage()
     {
-        $result = $this->mysqli->query("SELECT * FROM set_page");
+        $result = $this->mysqli->query("SELECT * FROM set_page ORDER BY sort ASC");
         return $result->fetch_all(MYSQLI_ASSOC);
     }
 
