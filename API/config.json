@@ -1,8 +1,0 @@
-{
-    "ConnectionString" : {
-        "DbName" : "Wessel",
-        "Username" : "root",
-        "Password" : "",
-        "SqlConnection" : "localhost"
-    }
-}
